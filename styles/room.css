@@ -1,0 +1,123 @@
+.content {
+    max-width: min(112rem, 90%);
+}
+#room header {
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#room header .buttons {
+    display: flex;
+}
+
+#room header .buttons .button:nth-child(1) {
+    margin-right: .8rem;
+    padding: 1.3rem 1.6rem;
+}
+#room header .buttons .button:nth-child(2) {
+    padding: 1.3rem 3.2rem;
+}
+#room header .button:nth-child(1) > img {
+    margin-left: 1rem;
+    margin-right: 0;
+}
+
+main h2 {
+    font-size: 2.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+
+    color: var(--black);
+
+    line-height: 4.2rem;
+    margin-bottom: 2.4rem;
+}
+#question-form form {
+    border: .2rem solid var(--grey-blue);
+    border-radius: 0 .8rem .8rem .8rem;
+
+    padding: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+#question-form form textarea {
+    resize: none;
+    background: transparent;
+    outline: none;
+
+    width: 100%;
+}
+#question-form form textarea::placeholder {
+    color: var(--grey-blue)
+}
+#question-form form footer {
+    margin-top: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#question-form form footer div:nth-child(1) {
+    display: flex;
+    align-items: center;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--icons-details);
+}
+#question-form form footer div:nth-child(1) img{
+    margin-right: .6rem;
+}
+#question-form form footer button {
+    height: auto;
+    padding: .8rem 2.4rem;
+    line-height: 2.4rem;
+}
+
+
+#questions .question-wrapper {
+    width: 100%;
+    background: var(--light-blue);
+    border-radius: 0 .8rem .8rem .8rem;
+
+    padding: 2.4rem;
+    margin-bottom: .8rem;
+}
+#questions .question-wrapper .question-content {
+    display: flex;
+    align-items: center;
+}
+#questions .question-wrapper .question-content .user {
+    margin-right: 1.6rem;
+}
+#questions .question-wrapper .question-content .question p {
+    color: var(--black);
+    font-size: 1.6rem;
+}
+#questions .question-wrapper .actions {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    margin-top: 2.7rem;
+}
+#questions .question-wrapper .actions a {
+    display: flex;
+    align-items: center;
+    
+    cursor: pointer;
+
+    font-size: 1.6rem;
+    color: var(--grey-dark)
+}
+#questions .question-wrapper .actions .check {
+    margin-right: 2.4rem;
+}
+#questions .question-wrapper .actions a > img {
+    margin-right: .8rem;
+}
