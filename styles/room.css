@@ -121,3 +121,18 @@ main h2 {
 #questions .question-wrapper .actions a > img {
     margin-right: .8rem;
 }
+
+
+/* Responsive */
+@media (max-width: 575px) {
+    #room header {
+        flex-direction: column;
+    }
+    #room header .buttons {
+        margin-top: 2rem;
+    }
+
+    main {
+        margin-top: 8rem;
+    }
+}

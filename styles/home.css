@@ -83,3 +83,32 @@ main .separator {
     bottom: -16rem;
     right: 5.6rem;
 }
+
+
+
+/* Responsive */
+@media (max-width: 958px) {
+    .content {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "header"
+        "right";
+
+        place-items: center;
+        align-items: center;
+        justify-content: center;
+    }
+    main {
+        align-items: center;
+        justify-content: center;
+    }
+    body #bg {
+        display: none;
+    }
+}
+
+@media (max-width: 375px) {
+    main {
+        padding: 0 2rem;
+    }
+}
