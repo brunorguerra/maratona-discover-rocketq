@@ -40,3 +40,10 @@ function handleClick(event, isMarked = true) {
 
   modal.open();
 }
+
+document
+  .querySelector("#room header .buttons .button:nth-child(1)")
+  .addEventListener("click", () => {
+    document.querySelector("#room header #value-roomId").select();
+    document.execCommand("copy");
+  });

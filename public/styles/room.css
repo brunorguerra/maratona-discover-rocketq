@@ -137,6 +137,28 @@ main h2 {
   background-color: var(--grey-blue);
 }
 
+.noQuestions {
+  max-width: 30rem;
+  margin: 5.2rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.noQuestions h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0.7rem 0 0;
+}
+.noQuestions p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--grey-dark);
+}
+
 /* Responsive */
 @media (max-width: 575px) {
   #room header {
