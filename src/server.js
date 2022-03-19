@@ -14,4 +14,6 @@ server.use(express.urlencoded({ extended: true }));
 
 server.use(route);
 
-server.listen(200);
+const port = process.env.PORT || 3000;
+
+server.listen(port);
