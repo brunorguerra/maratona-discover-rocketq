@@ -40,6 +40,8 @@ Here are the technologies used in this project.
 - To run the project.
 
   `npm start`
+    
+  ```http://localhost:3000/```
 
 ## How to use
 
